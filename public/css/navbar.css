@@ -1,0 +1,50 @@
+#navbar {
+  width: 100%;
+  border-bottom: 1px solid var(--border-color);
+
+  > div {
+    width: 100%;
+    height: 6rem;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > div {
+      > a {
+        > img {
+          height: 2.8rem;
+        }
+      }
+    }
+
+    > nav {
+      display: none;
+    }
+
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      .login {
+        width: 8.6rem;
+        height: 3.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: var(--text-color-btn);
+        background-color: var(--color-blue);
+        font-weight: 400;
+        border-radius: 2px;
+      }
+
+      > button {
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
+}

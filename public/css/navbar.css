@@ -6,6 +6,8 @@
 
   > nav {
     width: 100%;
+    max-width: 1820px;
+    margin: 0 auto;
     height: 100%;
     padding: 0 2rem;
     display: flex;
@@ -19,8 +21,24 @@
     }
 
     > button {
+      cursor: pointer;
       background-color: transparent;
       border: 0;
+    }
+  }
+
+  @media (min-width: 920px) {
+    height: 8rem;
+    > nav {
+      a {
+        > img {
+          height: 4rem;
+        }
+      }
+
+      > button {
+        display: none;
+      }
     }
   }
 }

@@ -1,0 +1,27 @@
+#navigation {
+  width: 100%;
+  > div {
+    width: 100%;
+    max-width: 315px;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: var(--background-color-menu);
+
+    > header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+
+      > img {
+        height: 30px;
+      }
+
+      > button {
+        background-color: transparent;
+      }
+    }
+  }
+}

@@ -1,9 +1,8 @@
 :root {
-  --color-blue: #058ed9;
-  --border-color: rgba(51, 51, 51, 0.2);
-  --background-color: #fff;
-  --background-color-secondary: rgba(51, 51, 51, 0.1);
-  --background-color-menu: #eee;
+  --color-blue: #0094ff;
+  --color-white: #fff;
+  --border-color: #bebebe;
   --text-color: #333333;
-  --text-color-btn: #fff;
+  --text-color-50: rgba(51, 51, 51, 0.5);
+  --background-color: #eee;
 }
